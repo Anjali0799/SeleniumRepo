@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-17T20:06:47 IST" name="Suite" finished-at="2025-07-17T20:08:31 IST" duration-ms="103058">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bddRunner.Login_TC001@2de23121]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TC001_LoginTC@22fcf7ab]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TC002_CreateLead@544fa968]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-17T20:06:47 IST" name="Test" finished-at="2025-07-17T20:08:31 IST" duration-ms="103058">
+      <class name="bddRunner.Login_TC001">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:bddRunner.Login_TC001@2de23121]" started-at="2025-07-17T20:06:48 IST" name="setUpClass" finished-at="2025-07-17T20:06:49 IST" duration-ms="1428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78123e82]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:bddRunner.Login_TC001@2de23121]" started-at="2025-07-17T20:06:49 IST" name="preCondition" finished-at="2025-07-17T20:07:36 IST" duration-ms="47279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:bddRunner.Login_TC001@2de23121]" started-at="2025-07-17T20:06:49 IST" name="preCondition" finished-at="2025-07-17T20:07:30 IST" duration-ms="40536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bddRunner.Login_TC001@2de23121]" started-at="2025-07-17T20:07:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T20:08:23 IST" duration-ms="53827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user tries to create a new lead using the valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the login funtionality of the CRM application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bddRunner.Login_TC001@2de23121]" started-at="2025-07-17T20:07:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T20:07:44 IST" duration-ms="8052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user tries to login with the valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the login funtionality of the CRM application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:bddRunner.Login_TC001@2de23121]" started-at="2025-07-17T20:07:44 IST" name="postCondition" finished-at="2025-07-17T20:07:49 IST" duration-ms="4782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:bddRunner.Login_TC001@2de23121]" started-at="2025-07-17T20:08:23 IST" name="postCondition" finished-at="2025-07-17T20:08:24 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:bddRunner.Login_TC001@2de23121]" started-at="2025-07-17T20:08:24 IST" name="tearDownClass" finished-at="2025-07-17T20:08:31 IST" duration-ms="6748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- bddRunner.Login_TC001 -->
+      <class name="runner.TC001_LoginTC">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TC001_LoginTC@22fcf7ab]" started-at="2025-07-17T20:06:48 IST" name="setUpClass" finished-at="2025-07-17T20:06:48 IST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78123e82]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:runner.TC001_LoginTC@22fcf7ab]" started-at="2025-07-17T20:06:48 IST" name="preCondition" finished-at="2025-07-17T20:07:41 IST" duration-ms="53498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin()[pri:0, instance:runner.TC001_LoginTC@22fcf7ab]" started-at="2025-07-17T20:07:41 IST" name="runLogin" finished-at="2025-07-17T20:08:00 IST" duration-ms="19038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:runner.TC001_LoginTC@22fcf7ab]" started-at="2025-07-17T20:08:00 IST" name="postCondition" finished-at="2025-07-17T20:08:01 IST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TC001_LoginTC@22fcf7ab]" started-at="2025-07-17T20:08:01 IST" name="tearDownClass" finished-at="2025-07-17T20:08:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TC001_LoginTC -->
+      <class name="runner.TC002_CreateLead">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TC002_CreateLead@544fa968]" started-at="2025-07-17T20:06:48 IST" name="setUpClass" finished-at="2025-07-17T20:06:48 IST" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78123e82]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:runner.TC002_CreateLead@544fa968]" started-at="2025-07-17T20:06:48 IST" name="preCondition" finished-at="2025-07-17T20:07:21 IST" duration-ms="33280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateLead()[pri:0, instance:runner.TC002_CreateLead@544fa968]" started-at="2025-07-17T20:07:21 IST" name="runCreateLead" finished-at="2025-07-17T20:08:15 IST" duration-ms="53936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:runner.TC002_CreateLead@544fa968]" started-at="2025-07-17T20:08:15 IST" name="postCondition" finished-at="2025-07-17T20:08:16 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TC002_CreateLead@544fa968]" started-at="2025-07-17T20:08:16 IST" name="tearDownClass" finished-at="2025-07-17T20:08:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TC002_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
